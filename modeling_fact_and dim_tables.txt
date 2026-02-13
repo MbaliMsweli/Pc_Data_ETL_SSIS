@@ -32,6 +32,7 @@ CREATE TABLE [dbo].[pc_data_staging](
 	[Storage_Capacity] [nvarchar](50) NULL
 ) 
 -----modelling dim and fact
+
 PC_Dim_Shop
 ShopKey int IDENTITY(1,1) PRIMARY KEY NOT NULL
 [Continent] [nvarchar](100) NULL,
